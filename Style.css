@@ -1,0 +1,48 @@
+:root{
+    --clr1: black;
+    --clr2: white;
+}
+.change{
+    
+    --clr1: white;
+    --clr2: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--clr2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    border: 2px solid var(--clr1);
+    color: var(--clr1);
+}
+.digital-clock {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--clr1);
+    font-size: 80px;
+    color: var(--clr1);
+}
+.btn{
+    width: 40%;
+    height: 100px;
+    border: 2px solid var(--clr1);
+    color: var(--clr1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
